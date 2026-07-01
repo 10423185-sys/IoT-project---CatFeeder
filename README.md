@@ -45,12 +45,20 @@ An IoT-based Smart Cat Feeder built using ESP32 DevKit V1. The system automatica
 
 ## Hardware Components
 
-![Prototype](docs/images/sg90)
-![Prototype](docs/images/ESP32 DevKit V1)
-![Prototype](docs/images/Srf05 ultrasonic)
-![Prototype](docs/images/Loadcell + HX711)
-![Prototype](docs/images/RTC DS3231)
+### ESP32 DevKit V1
+![ESP32 DevKit V1](docs/images/ESP32%20DevKit%20V1.jpg)
 
+### Loadcell + HX711
+![Loadcell + HX711](docs/images/Loadcell%20+%20HX711.jpg)
+
+### RTC DS3231
+![RTC DS3231](docs/images/RTC%20DS3231.jpg)
+
+### SG90 Servo
+![SG90](docs/images/Sg90.jpg)
+
+### SRF05 Ultrasonic
+![SRF05 Ultrasonic](docs/images/Srf05%20ultrasonic.jpg)
 
 
 
