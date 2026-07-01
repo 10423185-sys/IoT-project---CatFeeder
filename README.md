@@ -43,13 +43,17 @@ An IoT-based Smart Cat Feeder built using ESP32 DevKit V1. The system automatica
 - Blynk Mobile App
 
 ## Hardware components
-![Prototype](docs/images/615837083-fc82cb51-31cb-4ec9-8ca9-d14f23f2aa88.png)
-![Prototype](docs/images/615837083-fc82cb51-31cb-4ec9-8ca9-d14f23f2aa88.png)
-![Prototype](docs/images/615837083-fc82cb51-31cb-4ec9-8ca9-d14f23f2aa88.png)
-![Prototype](docs/images/615837083-fc82cb51-31cb-4ec9-8ca9-d14f23f2aa88.png)
-![Prototype](docs/images/615837083-fc82cb51-31cb-4ec9-8ca9-d14f23f2aa88.png)
-![Prototype](docs/images/615837083-fc82cb51-31cb-4ec9-8ca9-d14f23f2aa88.png)
-![Prototype](docs/images/615837083-fc82cb51-31cb-4ec9-8ca9-d14f23f2aa88.png)
+![Prototype](docs/images (4).jpg)
+
+![Prototype](docs/images/ (3).jpg)
+
+![Prototype](docs/images/ (2).jpg)
+
+![Prototype](docs/images/ (1).jpg)
+
+![Prototype](docs/images.jpg)
+
+
 
 
 ### Libraries
