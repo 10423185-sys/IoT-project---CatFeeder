@@ -2,7 +2,7 @@
 
 <p align="center">
 
-<img src="docs/images/dowload.jpg" width="100%">
+<img src="docs/images/download.jpg" width="100%">
 
 </p>
 
