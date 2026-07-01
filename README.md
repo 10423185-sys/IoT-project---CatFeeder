@@ -54,21 +54,20 @@ An IoT-based Smart Cat Feeder built using ESP32 DevKit V1. The system automatica
 ---
 
 ## System Architecture
-User
-   │
-   ▼
-Blynk Mobile App
-   │
-   ▼
-Wi-Fi / Internet
-   │
-   ▼
-ESP32 DevKit V1
-   ├── Servo SG90 (Food Dispensing)
-   ├── HX711 + Load Cell (Food Weight Measurement)
-   ├── SRF05 Ultrasonic (Food Level Detection)
-   ├── DS3231 RTC (Feeding Schedule)
-   └── Buzzer (Notification)
+                   User
+                     │
+                     ▼
+             Blynk Mobile App
+                     │
+                 Wi-Fi / Internet
+                     │
+                     ▼
+             ESP32 DevKit V1
+      ┌────────┼────────┬────────┬
+      │        │        │        │        
+      ▼        ▼        ▼        ▼        
+  Servo     HX711 +   SRF05    DS3231  
+   SG90     Load Cell Ultrasonic   RTC
 
 
 ---
