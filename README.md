@@ -1,13 +1,5 @@
 # IoT Automatic Cat Feeding System
 
-![ESP32](https://img.shields.io/badge/ESP32-DevKit_V1-blue)
-
-![Arduino](https://img.shields.io/badge/Arduino-IDE-green)
-
-![License](https://img.shields.io/badge/License-MIT-yellow)
-
-![Status](https://img.shields.io/badge/Status-Completed-success)
-
 <p align="center">
 
 <img src="docs/images/download.jpg" width="100%">
@@ -49,6 +41,16 @@ An IoT-based Smart Cat Feeder built using ESP32 DevKit V1. The system automatica
 - Arduino IDE
 - ESP32 Board Package
 - Blynk Mobile App
+
+## Hardware components
+![Prototype](docs/images/615837083-fc82cb51-31cb-4ec9-8ca9-d14f23f2aa88.png)
+![Prototype](docs/images/615837083-fc82cb51-31cb-4ec9-8ca9-d14f23f2aa88.png)
+![Prototype](docs/images/615837083-fc82cb51-31cb-4ec9-8ca9-d14f23f2aa88.png)
+![Prototype](docs/images/615837083-fc82cb51-31cb-4ec9-8ca9-d14f23f2aa88.png)
+![Prototype](docs/images/615837083-fc82cb51-31cb-4ec9-8ca9-d14f23f2aa88.png)
+![Prototype](docs/images/615837083-fc82cb51-31cb-4ec9-8ca9-d14f23f2aa88.png)
+![Prototype](docs/images/615837083-fc82cb51-31cb-4ec9-8ca9-d14f23f2aa88.png)
+
 
 ### Libraries
 
