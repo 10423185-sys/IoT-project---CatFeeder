@@ -156,7 +156,6 @@ Upload the program to ESP32.
 
 ### Blynk Interface
 
-<img width="946" height="2047" alt="image" src="https://github.com/user-attachments/assets/fc82cb51-31cb-4ec9-8ca9-d14f23f2aa88" />
 
 
 ---
