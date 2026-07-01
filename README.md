@@ -46,7 +46,7 @@ An IoT-based Smart Cat Feeder built using ESP32 DevKit V1. The system automatica
 ## Hardware Components
 
 ### ESP32 DevKit V1
-![ESP32 DevKit V1](docs/images/ESP320DevKitV1.jpg)
+![ESP32 DevKit V1](docs/images/ESP32DevKitV1.jpg)
 
 ### Loadcell + HX711
 ![Loadcell + HX711](docs/images/Loadcell+HX711.jpg)
