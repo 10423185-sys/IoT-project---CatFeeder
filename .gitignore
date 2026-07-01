@@ -1,0 +1,10 @@
+# Arduino build files
+*.hex
+build/
+
+#File chua wifi, auth
+secrets.h
+
+#File he thong
+.DS_Store
+Thumbs.db
