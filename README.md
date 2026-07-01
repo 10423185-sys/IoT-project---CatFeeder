@@ -1,5 +1,13 @@
 # IoT Automatic Cat Feeding System
 
+![ESP32](https://img.shields.io/badge/ESP32-DevKit_V1-blue)
+
+![Arduino](https://img.shields.io/badge/Arduino-IDE-green)
+
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
+![Status](https://img.shields.io/badge/Status-Completed-success)
+
 <p align="center">
 
 <img src="docs/images/download.jpg" width="100%">
