@@ -154,7 +154,7 @@ https://www.canva.com/design/DAHMnJc8aKE/dVifdjigySEjK0Ijl_wDjQ/edit
 
 ### Blynk Interface
 
-![Prototype](docs/images/615837083-fc82cb51-31cb-4ec9-8ca9-d14f23f2aa88.png)
+![Prototype](docs/images/Blynk.jpg)
 
 
 ### Demo
