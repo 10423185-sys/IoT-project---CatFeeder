@@ -1,5 +1,11 @@
 # IoT Automatic Cat Feeding System
 
+<p align="center">
+
+<img src="docs/images/dowload.jpg" width="100%">
+
+</p>
+
 An IoT-based Smart Cat Feeder built using ESP32 DevKit V1. The system automatically dispenses food based on a predefined schedule or manual commands through the Blynk mobile application. It also monitors food level and dispensed weight while reducing power consumption using Deep Sleep Mode.
 
 ---
