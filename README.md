@@ -81,18 +81,18 @@ The Smart Cat Feeder system is built around the ESP32 DevKit V1, which acts as t
 main controller of the entire system. The ESP32 communicates with sensors, actuators,
 and the mobile application through Wi-Fi to perform automatic feeding and system
 monitoring functions.
-● The user sets a feeding schedule or activates manual feeding through the mobile application.
-● The ESP32 receives the commands via Wi-Fi communication.
-● The DS3231 RTC module keeps track of accurate real-time clock information for scheduled
+   ● The user sets a feeding schedule or activates manual feeding through the mobile application.
+   ● The ESP32 receives the commands via Wi-Fi communication.
+   ● The DS3231 RTC module keeps track of accurate real-time clock information for scheduled
 feeding operations.
-● At feeding time:
-○ The SG90 servo motor rotates to dispense food
-● The load cell and HX711 module measure the amount of food dispensed.
-● The SRF05 sensor checks the remaining food level inside the container.
-● If the food level becomes low:
-○ The system sends a warning notification to the application
-● When the system is idle:
-○ The ESP32 enters deep sleep mode to reduce power consumption.
+   ● At feeding time:
+   ○ The SG90 servo motor rotates to dispense food
+   ● The load cell and HX711 module measure the amount of food dispensed.
+   ● The SRF05 sensor checks the remaining food level inside the container.
+   ● If the food level becomes low:
+   ○ The system sends a warning notification to the application
+   ● When the system is idle:
+   ○ The ESP32 enters deep sleep mode to reduce power consumption.
 
 
 ---
