@@ -158,7 +158,7 @@ Upload the program to ESP32.
 
 ### Prototype
 
-(Add prototype image)
+![Prototype](docs/images/Presentation Using Provided Template.mp4)
 
 ### Blynk Interface
 
