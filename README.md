@@ -1,2 +1,181 @@
-# IoT-project---CatFeeder
-An IoT-based automatic cat feeder using ESP32 DevKit V1, Blynk, RTC, DS3231, Load Cell, Sg90, Srf 05.
+# 🐱 IoT Automatic Cat Feeding System
+
+An IoT-based Smart Cat Feeder built using ESP32 DevKit V1. The system automatically dispenses food based on a predefined schedule or manual commands through the Blynk mobile application. It also monitors food level and dispensed weight while reducing power consumption using Deep Sleep Mode.
+
+---
+
+## Features
+
+- Automatic scheduled feeding
+- Manual feeding from mobile application
+- Wi-Fi remote control
+- Food weight measurement
+- Food level monitoring
+- Deep Sleep power saving
+- RTC-based accurate scheduling
+
+---
+
+## Hardware Components
+
+| Component | Function |
+|------------|----------|
+| ESP32 DevKit V1 | Main controller |
+| TowerPro SG90 Servo | Food dispensing |
+| SRF05 Ultrasonic Sensor | Food level detection |
+| HX711 + Load Cell | Food weight measurement |
+| DS3231 RTC Module | Accurate timekeeping |
+| Breadboard | Circuit assembly |
+| Jumper Wires | Connections |
+
+---
+
+## Software
+
+- Arduino IDE
+- ESP32 Board Package
+- Blynk Mobile App
+
+### Libraries
+
+- WiFi.h
+- BlynkSimpleEsp32.h
+- ESP32Servo.h
+- Wire.h
+- RTClib.h
+- HX711.h
+
+---
+
+## System Architecture
+
+User
+↓
+
+Blynk Mobile App
+↓
+
+Wi-Fi
+
+↓
+
+ESP32 DevKit V1
+
+├── Servo SG90
+
+├── HX711 + Load Cell
+
+├── SRF05 Ultrasonic
+
+├── DS3231 RTC
+
+
+---
+
+## Working Principle
+
+1. User configures feeding schedule through Blynk.
+2. ESP32 synchronizes with DS3231 RTC.
+3. At feeding time:
+   - Servo rotates.
+   - Food is dispensed.
+   - Load cell measures food weight.
+4. Ultrasonic sensor checks remaining food.
+5. Low food notification is sent if necessary.
+6. ESP32 enters Deep Sleep to reduce power consumption.
+
+---
+
+## Folder Structure
+
+firmware/
+Arduino source code
+
+hardware/
+Circuit and wiring diagrams
+
+docs/
+Project_Proposal.pdf
+
+Presentation.pdf
+
+User_Manual.pdf
+
+Final_Report.pdf
+
+images/
+Project images
+
+videos/
+
+
+---
+
+## Installation
+
+### Install Arduino IDE
+
+Download Arduino IDE.
+
+### Install ESP32 Package
+
+Boards Manager
+
+Install
+
+ESP32 by Espressif Systems
+
+### Install Libraries
+
+- Blynk
+- ESP32Servo
+- HX711
+- RTClib
+
+### Configure
+
+Edit
+
+config.h
+
+```cpp
+char ssid[] = "YOUR_WIFI";
+char pass[] = "YOUR_PASSWORD";
+char auth[] = "YOUR_BLYNK_TOKEN";
+```
+
+Upload the program to ESP32.
+
+---
+
+## Demonstration
+
+### Prototype
+
+(Add prototype image)
+
+### Blynk Interface
+
+(Add screenshot)
+
+---
+
+## Future Improvements
+
+- Camera monitoring
+- Battery backup
+- Cloud database
+
+---
+
+## Authors
+
+Vu Trinh Dinh
+
+IoT Project
+
+---
+
+## License
+
+MIT License
