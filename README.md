@@ -1,4 +1,4 @@
-# 🐱 IoT Automatic Cat Feeding System
+# IoT Automatic Cat Feeding System
 
 An IoT-based Smart Cat Feeder built using ESP32 DevKit V1. The system automatically dispenses food based on a predefined schedule or manual commands through the Blynk mobile application. It also monitors food level and dispensed weight while reducing power consumption using Deep Sleep Mode.
 
@@ -139,9 +139,9 @@ Edit
 config.h
 
 ```cpp
-char ssid[] = "YOUR_WIFI";
-char pass[] = "YOUR_PASSWORD";
-char auth[] = "YOUR_BLYNK_TOKEN";
+const char* auth[]    = BLYNK_AUTH_TOKEN;
+const char* ssid []    = WIFI_SSID;
+const char* password[] = WIFI_PASS;
 ```
 
 Upload the program to ESP32.
@@ -156,7 +156,8 @@ Upload the program to ESP32.
 
 ### Blynk Interface
 
-(Add screenshot)
+<img width="946" height="2047" alt="image" src="https://github.com/user-attachments/assets/fc82cb51-31cb-4ec9-8ca9-d14f23f2aa88" />
+
 
 ---
 
